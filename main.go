@@ -21,6 +21,6 @@ import (
 )
 
 func main() {
-	runtime.GOMAXPROCS(runtime.NumCPU())
+runtime.GOMAXPROCS(runtime.NumCPU())
 	cmd.Execute()
 }
